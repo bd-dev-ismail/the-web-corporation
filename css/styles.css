@@ -1,0 +1,23 @@
+/* Custom Button Sets  */
+.web-btn{
+    color: #fff;
+    background: #20ad96;
+}
+.web-btn:hover{
+    color: #fff;
+    background: #385777;
+    border-color: #385777;
+}
+.web-text{
+    color: #3f3a64;
+}
+/* Nav Our Styles Apply  */
+.navbar-light .navbar-nav .nav-link.active{
+    color: #20ad96;
+}
+.nav-item .nav-link.active:hover{
+    color: #20ad96;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #20ad96;
+}
