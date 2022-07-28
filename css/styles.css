@@ -4,6 +4,7 @@ html, body{
 }
 .web-btn,
 .web-bg{
+    padding: 10px 25px !important;
     color: #fff;
     background: #20ad96;
 }
@@ -19,10 +20,12 @@ html, body{
     font-size: 16px;
     padding: 12px 26px;
     cursor: pointer;
+    border: 0;
 }
 .web-btn-2:hover{
     background: #385777;
     color: #fff;
+    border: 0;
 }
 .web-text-2{
     color: #20ad96;

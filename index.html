@@ -441,15 +441,22 @@
                     <div class="modal-dialog">
                       <div class="modal-content">
                         <div class="modal-header">
-                          <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                          <h5 class="modal-title web-text" id="staticBackdropLabel">Send A Qucik Messege!</h5>
                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                          ...
+                          <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label web-text">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Email">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label web-text">Something Write about you!</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
                         </div>
                         <div class="modal-footer">
                           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                          <button type="button" class="btn btn-primary">Understood</button>
+                          <button type="button" class="btn web-btn">Send</button>
                         </div>
                       </div>
                     </div>
@@ -671,9 +678,66 @@
   </button>
         </div>
           </div>
+          <div class="text-center py-4">
+            <button class="btn web-btn me-2" type="button">
+              <a class="text-decoration-none text-white" href=""
+                >View All</a
+              >
+            </button>
+          </div>
         </div>
       </section>
       <!-- End Feedback Section  -->
+      <!-- Start Frequently Question  -->
+      <section id="question">
+        <div class="container my-5">
+          <div class="courses-info text-center web-text mb-3">
+            <h2 class="fw-bold display-6">Frequently Asked Questions</h2>
+            <p>Here some question & answerd for you guys! beacouse we know you have a lot of think about us.!If you have any more question Mail Us.</p>
+          </div>
+          <div class="accordium-controll m-auto my-5" style="max-width: 800px;">
+                        <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    What are different between Css flexbox & Grid?
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Flexbox is Designed for one dimensional layout & The key difference is that Grid can be used to create two-dimensional layouts.Grid is the layout first, On other hand  Flexbox approach is primarily the content.Flexbox layout is best suited to website components and small scale layouts, while the Grid layout is designed for larger scale layouts.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    What are different between Css flexbox & Grid?
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Accordion Item #3
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Frequently Question  -->
     </main>
 
     <!--Bootstrap Bundle with Popper -->
