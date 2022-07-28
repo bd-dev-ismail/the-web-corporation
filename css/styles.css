@@ -1,5 +1,9 @@
 /* Custom Button Sets  */
-.web-btn{
+html, body{
+    overflow-x: hidden;
+}
+.web-btn,
+.web-bg{
     color: #fff;
     background: #20ad96;
 }
@@ -7,6 +11,18 @@
     color: #fff;
     background: #385777;
     border-color: #385777;
+}
+.web-btn-2{
+    color: #20ad96;
+    background: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 12px 26px;
+    cursor: pointer;
+}
+.web-btn-2:hover{
+    background: #385777;
+    color: #fff;
 }
 .web-text-2{
     color: #20ad96;
