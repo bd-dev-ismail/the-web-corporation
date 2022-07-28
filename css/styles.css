@@ -6,6 +6,7 @@ html, body{
 .web-bg{
     padding: 10px 25px !important;
     color: #fff;
+    font-weight: 500;
     background: #20ad96;
 }
 .web-btn:hover{
