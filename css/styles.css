@@ -8,18 +8,11 @@
     background: #385777;
     border-color: #385777;
 }
+.web-text-2{
+    color: #20ad96;
+}
 .web-text{
     color: #3f3a64;
-}
-/* Nav Our Styles Apply  */
-.navbar-light .navbar-nav .nav-link.active{
-    color: #20ad96;
-}
-.nav-item .nav-link.active:hover{
-    color: #20ad96;
-}
-.navbar-light .navbar-nav .nav-link:hover{
-    color: #20ad96;
 }
 .carousel-item {
     height: 85vh;
